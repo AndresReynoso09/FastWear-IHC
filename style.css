@@ -168,3 +168,72 @@ body nav li:last-child {
   text-align: center;
   padding: 10px;
 }
+.three {
+  position: relative;
+  background-color: #5ba6a2;
+}
+.three h1 {
+  width: 826px;
+  color: rgba(20, 37, 36, 1);
+  position: absolute;
+  top: 84px;
+  left: 319px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.three h2 {
+  width: 556px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 194px;
+  left: 456px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.three .client-picture {
+  width: 179px;
+  height: 179px;
+  background: url("./images/selfie.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 319px;
+  left: 630px;
+  border-top-left-radius: 204px;
+  border-top-right-radius: 204px;
+  border-bottom-left-radius: 204px;
+  border-bottom-right-radius: 204px;
+  overflow: hidden;
+}
+.three .client-title {
+  width: 46px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 545px;
+  left: 700px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.three .client {
+  width: 141px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  bottom: 156px;
+  left: 658px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
