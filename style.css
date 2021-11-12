@@ -319,3 +319,137 @@ body nav li:last-child {
   overflow: hidden;
   z-index: 1;
 }
+.five {
+  position: relative;
+  background-color: #5ba6a2;
+  z-index: 3;
+}
+.five h1 {
+  width: 414px;
+  color: rgba(39, 46, 61, 1);
+  position: absolute;
+  top: 140px;
+  left: 513px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.five span {
+  width: 300px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 235px;
+  left: 567px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.five .email {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five .email .letter {
+  width: 50px;
+  height: 50px;
+  background-image: url("./images/letter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.five .email .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.five .email .content {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 14%;
+  size: small;
+}
+.five .phone {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  left: 650px;
+}
+.five .phone .cellphone {
+  width: 50px;
+  height: 50px;
+  background-image: url("./images/phone_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.five .phone .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.five .phone .content {
+  width: 100px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 16%;
+  size: small;
+}
+.five .address {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  left: 850px;
+}
+.five .address .point {
+  width: 50px;
+  height: 50px;
+  background-image: url("./images/placeholder.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.five .address .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.five .address .content {
+  width: 120px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 10%;
+  size: small;
+}
