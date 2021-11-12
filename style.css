@@ -237,3 +237,85 @@ body nav li:last-child {
   opacity: 1;
   text-align: center;
 }
+.four {
+  position: relative;
+  background-color: white;
+}
+.four h1 {
+  width: 270px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 63px;
+  left: 585px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.four h2 {
+  width: 557px;
+  color: rgba(79, 92, 104, 1);
+  position: absolute;
+  top: 135px;
+  left: 442px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.four .apple {
+  width: 125px;
+  height: 300px;
+  background: url("./images/applestore.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  top: 140px;
+  left: 559px;
+}
+.four .google {
+  width: 125px;
+  height: 300px;
+  background: url("./images/googleplay.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  top: 140px;
+  left: 739px;
+}
+.four .phone-screen {
+  width: 284px;
+  height: 420px;
+  background: url("./images/phone_screen.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 355px;
+  left: 571px;
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  overflow: hidden;
+  z-index: 2;
+}
+.four .phone-border {
+  width: 335px;
+  height: 360px;
+  background: url("./images/phone.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 336px;
+  left: 552px;
+  overflow: hidden;
+  z-index: 1;
+}
