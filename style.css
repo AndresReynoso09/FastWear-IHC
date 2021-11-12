@@ -120,3 +120,51 @@ body nav li:last-child {
   right: 0;
   z-index: 1;
 }
+.two {
+  position: relative;
+  background-color: white;
+}
+.two h1 {
+  width: 496px;
+  color: rgba(66, 75, 90, 1);
+  position: absolute;
+  top: 99px;
+  left: 472px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  z-index: 2;
+}
+.two .box {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  top: 200px;
+  left: 230px;
+  background-color: rgb(242, 245, 247);
+  margin: 20px;
+  z-index: 2;
+}
+.two .box h2 {
+  color: rgba(20, 37, 36, 1);
+  position: relative;
+  top: 84px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.two .box span {
+  color: rgb(161, 174, 183);
+  position: absolute;
+  top: 200px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+}
