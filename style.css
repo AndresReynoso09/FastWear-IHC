@@ -18,23 +18,18 @@ section:first-child {
 
 body nav {
   list-style: none;
+  position: absolute;
   display: flex;
   font-size: medium;
   font-family: Josefin Sans;
-}
-
-body nav li {
-  margin: 15px;
-  width: 30%;
-  padding-top: 5px;
-}
-
-body nav li:first-child {
-  padding-left: 60px;
-}
-
-body nav li:last-child {
-  margin-right: 0;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  width: 75%;
+  z-index: 3;
+  right: 0;
+  top: 5%;
+  background-color: white;
 }
 
 .container {
@@ -45,7 +40,7 @@ body nav li:last-child {
 .one {
   position: relative;
   background-color: #5ba6a2;
-  padding-left: 2vh;
+  justify-content: space-around;
 }
 .one .logo {
   width: 250px;
@@ -55,16 +50,8 @@ body nav li:last-child {
   position: absolute;
   background-size: cover;
   opacity: 1;
-  top: 10vh;
-}
-.one .bar {
-  width: 150vh;
-  height: 57px;
-  background: rgba(242, 245, 247, 1);
-  position: absolute;
-  right: 0px;
-  top: 10vh;
-  z-index: 2;
+  left: 3%;
+  top: 5%;
 }
 .one .welcome {
   width: 522px;
