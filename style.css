@@ -71,7 +71,7 @@ body nav li:last-child {
   color: rgba(242, 245, 247, 1);
   position: absolute;
   top: 300px;
-  left: 96px;
+  left: 5%;
   font-family: Josefin Sans;
   font-weight: Bold;
   font-size: 66px;
@@ -83,7 +83,7 @@ body nav li:last-child {
   color: rgba(0, 0, 0, 0.7799999713897705);
   position: absolute;
   top: 450px;
-  left: 96px;
+  left: 5%;
   font-family: Ubuntu;
   font-weight: Light;
   font-size: 24px;
@@ -96,7 +96,7 @@ body nav li:last-child {
   color: rgba(0, 0, 0, 0.7799999713897705);
   position: absolute;
   top: 650px;
-  left: 96px;
+  left: 5%;
   font-family: Ubuntu;
   font-weight: Light;
   opacity: 1;
@@ -105,7 +105,7 @@ body nav li:last-child {
   -moz-border-radius: 5px;
   border-radius: 20px;
   text-align: center;
-  padding-top: 1%;
+  padding-top: 15px;
   font-size: large;
   color: rgba(242, 245, 247, 1);
 }
@@ -123,18 +123,18 @@ body nav li:last-child {
 .two {
   position: relative;
   background-color: white;
+  justify-content: center;
 }
 .two h1 {
   width: 496px;
   color: rgba(66, 75, 90, 1);
   position: absolute;
+  display: inline;
   top: 99px;
-  left: 472px;
   font-family: Ubuntu;
   font-weight: Bold;
   font-size: 50px;
   opacity: 1;
-  text-align: center;
   z-index: 2;
 }
 .two .box {
@@ -142,7 +142,6 @@ body nav li:last-child {
   height: 350px;
   position: relative;
   top: 200px;
-  left: 230px;
   background-color: rgb(242, 245, 247);
   margin: 20px;
   z-index: 2;
@@ -171,13 +170,14 @@ body nav li:last-child {
 .three {
   position: relative;
   background-color: #5ba6a2;
+  justify-content: center;
 }
 .three h1 {
   width: 826px;
+  height: 100px;
   color: rgba(20, 37, 36, 1);
-  position: absolute;
+  position: relative;
   top: 84px;
-  left: 319px;
   font-family: Ubuntu;
   font-weight: Bold;
   font-size: 50px;
@@ -189,7 +189,6 @@ body nav li:last-child {
   color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 194px;
-  left: 456px;
   font-family: Ubuntu;
   font-weight: Regular;
   font-size: 24px;
@@ -206,7 +205,6 @@ body nav li:last-child {
   opacity: 1;
   position: absolute;
   top: 319px;
-  left: 630px;
   border-top-left-radius: 204px;
   border-top-right-radius: 204px;
   border-bottom-left-radius: 204px;
@@ -218,7 +216,6 @@ body nav li:last-child {
   color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 545px;
-  left: 700px;
   font-family: Ubuntu;
   font-weight: Regular;
   font-size: 14px;
@@ -230,7 +227,6 @@ body nav li:last-child {
   color: rgba(0, 0, 0, 1);
   position: absolute;
   bottom: 156px;
-  left: 658px;
   font-family: Ubuntu;
   font-weight: Regular;
   font-size: 16px;
@@ -240,13 +236,13 @@ body nav li:last-child {
 .four {
   position: relative;
   background-color: white;
+  justify-content: center;
 }
 .four h1 {
   width: 270px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 63px;
-  left: 585px;
   font-family: Ubuntu;
   font-weight: Bold;
   font-size: 50px;
@@ -258,34 +254,38 @@ body nav li:last-child {
   color: rgba(79, 92, 104, 1);
   position: absolute;
   top: 135px;
-  left: 442px;
   font-family: Ubuntu;
   font-weight: Regular;
   font-size: 16px;
   opacity: 1;
   text-align: center;
 }
+.four .container-box {
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  top: 250px;
+  justify-content: center;
+}
 .four .apple {
   width: 125px;
-  height: 300px;
+  height: 100px;
   background: url("./images/applestore.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  right: 0px;
   position: absolute;
-  top: 140px;
-  left: 559px;
 }
 .four .google {
   width: 125px;
-  height: 300px;
+  height: 100px;
   background: url("./images/googleplay.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  left: 0px;
   position: absolute;
-  top: 140px;
-  left: 739px;
 }
 .four .phone-screen {
   width: 284px;
@@ -297,7 +297,6 @@ body nav li:last-child {
   opacity: 1;
   position: absolute;
   top: 355px;
-  left: 571px;
   border-top-left-radius: 36px;
   border-top-right-radius: 36px;
   border-bottom-left-radius: 36px;
@@ -315,7 +314,6 @@ body nav li:last-child {
   opacity: 1;
   position: absolute;
   top: 336px;
-  left: 552px;
   overflow: hidden;
   z-index: 1;
 }
@@ -323,13 +321,14 @@ body nav li:last-child {
   position: relative;
   background-color: #5ba6a2;
   z-index: 3;
+  justify-content: center;
+  overflow: hidden;
 }
 .five h1 {
   width: 414px;
   color: rgba(39, 46, 61, 1);
   position: absolute;
   top: 140px;
-  left: 513px;
   font-family: Ubuntu;
   font-weight: Bold;
   font-size: 50px;
@@ -341,22 +340,27 @@ body nav li:last-child {
   color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 235px;
-  left: 567px;
   font-family: Ubuntu;
   font-weight: Regular;
   font-size: 16px;
   opacity: 1;
   text-align: center;
 }
+.five .container-box {
+  width: 500px;
+  height: 400px;
+  top: 300px;
+  position: absolute;
+}
 .five .email {
   width: 150px;
   height: 250px;
   position: absolute;
   bottom: 50px;
-  left: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
+  float: left;
 }
 .five .email .letter {
   width: 50px;
@@ -366,7 +370,7 @@ body nav li:last-child {
   background-position: center;
   background-size: 100%;
   position: absolute;
-  left: 50px;
+
   top: 0px;
 }
 .five .email .contact {
@@ -374,7 +378,6 @@ body nav li:last-child {
   position: absolute;
   text-align: center;
   top: 60px;
-  left: 45px;
   size: small;
 }
 .five .email .content {
@@ -390,7 +393,9 @@ body nav li:last-child {
   height: 250px;
   position: absolute;
   bottom: 50px;
-  left: 650px;
+  left: 175px;
+  justify-content: center;
+  float: left;
 }
 .five .phone .cellphone {
   width: 50px;
@@ -424,7 +429,7 @@ body nav li:last-child {
   height: 250px;
   position: absolute;
   bottom: 50px;
-  left: 850px;
+  right: 0px;
 }
 .five .address .point {
   width: 50px;
