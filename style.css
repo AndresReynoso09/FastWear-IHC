@@ -96,6 +96,25 @@ body nav {
   font-size: large;
   color: rgba(242, 245, 247, 1);
 }
+.one .aboutProduct {
+  width: 175px;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.7799999713897705);
+  position: absolute;
+  top: 650px;
+  left: 25%;
+  font-family: Ubuntu;
+  font-weight: Light;
+  opacity: 1;
+  background-color: rgb(66, 75, 90);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 3px;
+  font-size: large;
+  color: rgba(242, 245, 247, 1);
+}
 .one .image {
   width: 50%;
   height: 100%;
