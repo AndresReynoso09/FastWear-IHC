@@ -312,6 +312,31 @@ body nav {
   overflow: hidden;
 }
 .five h1 {
+  width: auto;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 70px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  align-items: center;
+}
+.five iframe {
+  width: 600px;
+  height: 338px;
+  position: absolute;
+  top: 250px;
+}
+.six {
+  position: relative;
+  background-color: white;
+  z-index: 3;
+  justify-content: center;
+  overflow: hidden;
+}
+.six h1 {
   width: 414px;
   color: rgba(39, 46, 61, 1);
   position: absolute;
@@ -322,9 +347,8 @@ body nav {
   opacity: 1;
   text-align: center;
 }
-.five span {
+.six span {
   width: 300px;
-  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 235px;
   font-family: Ubuntu;
@@ -333,13 +357,13 @@ body nav {
   opacity: 1;
   text-align: center;
 }
-.five .container-box {
+.six .container-box {
   width: 500px;
   height: 400px;
   top: 300px;
   position: absolute;
 }
-.five .email {
+.six .email {
   width: 150px;
   height: 250px;
   position: absolute;
@@ -349,7 +373,7 @@ body nav {
   align-items: center;
   float: left;
 }
-.five .email .letter {
+.six .email .letter {
   width: 50px;
   height: 50px;
   background-image: url("./images/letter.png");
@@ -360,14 +384,14 @@ body nav {
 
   top: 0px;
 }
-.five .email .contact {
+.six .email .contact {
   width: 60px;
   position: absolute;
   text-align: center;
   top: 60px;
   size: small;
 }
-.five .email .content {
+.six .email .content {
   width: 60px;
   position: absolute;
   text-align: center;
@@ -375,7 +399,7 @@ body nav {
   left: 14%;
   size: small;
 }
-.five .phone {
+.six .phone {
   width: 150px;
   height: 250px;
   position: absolute;
@@ -384,7 +408,7 @@ body nav {
   justify-content: center;
   float: left;
 }
-.five .phone .cellphone {
+.six .phone .cellphone {
   width: 50px;
   height: 50px;
   background-image: url("./images/phone_icon.png");
@@ -395,7 +419,7 @@ body nav {
   left: 50px;
   top: 0px;
 }
-.five .phone .contact {
+.six .phone .contact {
   width: 60px;
   position: absolute;
   text-align: center;
@@ -403,7 +427,7 @@ body nav {
   left: 45px;
   size: small;
 }
-.five .phone .content {
+.six .phone .content {
   width: 100px;
   position: absolute;
   text-align: center;
@@ -411,14 +435,14 @@ body nav {
   left: 16%;
   size: small;
 }
-.five .address {
+.six .address {
   width: 150px;
   height: 250px;
   position: absolute;
   bottom: 50px;
   right: 0px;
 }
-.five .address .point {
+.six .address .point {
   width: 50px;
   height: 50px;
   background-image: url("./images/placeholder.png");
@@ -429,7 +453,7 @@ body nav {
   left: 50px;
   top: 0px;
 }
-.five .address .contact {
+.six .address .contact {
   width: 60px;
   position: absolute;
   text-align: center;
@@ -437,7 +461,7 @@ body nav {
   left: 45px;
   size: small;
 }
-.five .address .content {
+.six .address .content {
   width: 120px;
   position: absolute;
   text-align: center;
